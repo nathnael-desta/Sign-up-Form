@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <img
+      src="./halie-west-25xggax4bSA-unsplash.jpg"
+      alt="picture of greenary"
+      srcset=""
+    />
+    <form action="get">
+      <p>
+        Welcome! We appreciate your interest in our services. In order to
+        provide you with the best possible experience, we kindly ask that you
+        please fill out the following form with your accurate information.
+      </p>
+      <div class="input">
+        <p>Let's do this</p>
+        <div>
+          <label for="fname" class="firstname"> FIRST NAME
+            <input type="text" id="fname" name="fname" />
+          </label>
+          <label for="lname" class="lastname">LAST NAME
+            <input type="text" id="lname" name="lname" />
+          </label>
+        </div>
+        <div>
+          <label for="email">EMAIL
+            <input type="email" id="email" name="email" />
+          </label>
+          <label for="phoneNumber">PHONE NUMEBR
+            <input type="number" id="phoneNumber" name="phoneNumber" />
+          </label>
+        </div>
+        <div class="third">
+          <label for="password">PASSWORD
+            <input type="text" id="password" name="password" class="first"/>
+          </label>
+          <label for="confirm">CONFIRM PASSWORD
+            <input type="text" name="password" id="password" class="second"/>
+          </label>
+        </div>
+      </div>
+      <button type="submit">Create Account</button>
+      <p>Already have an account? <span class="login">Log in</span></p>
+    </form>
+  </body>
+</html>
